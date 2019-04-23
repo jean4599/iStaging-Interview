@@ -1,0 +1,44 @@
+.panoramas-list-container{
+	position: absolute;
+	bottom:0px;
+}
+.panoramas-list{
+	display: flex;
+	overflow-x: auto;
+	flex-wrap: wrap;
+	background-color: rgba(88,88,90,0.7);
+	padding: 0px 20px;
+}
+.panoramas-list-collapse{
+	font-size: 30px;
+	padding: 10px;
+	background-color: rgba(88,88,90,0.7);
+	color: white;
+}
+.panoramas-list-collapse i{
+	cursor: pointer;
+}
+.panoramas-item{
+	cursor: pointer;
+}
+.panoramas-item div{
+	width: 160px;
+    height: 98px;
+    display: flex;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+.panoramas-item img{
+	width:100%;
+	z-index: 2;
+}
+.panoramas-item p{
+	color: white;
+	text-align: center;
+	margin-top:0px;
+}
